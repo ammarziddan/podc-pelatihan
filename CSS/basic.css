@@ -1,0 +1,107 @@
+/* External CSS */
+
+/* Font */
+body {
+    /* mengubah font */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    /* mengubah warna font */
+    color: lightcoral;
+    /* mengubah ukuran font */
+    font-size: 60px;
+    /* ketebalan font */
+    font-weight: normal;
+    /* align */
+    text-align: center;
+}
+
+p {
+    /* line height */
+    line-height: 30px;
+}
+
+h2 {
+    /* letter spacing */
+    letter-spacing: 3px;
+    /* */
+    word-spacing: 5px;
+}
+
+a {
+    /* text-decoration */
+    text-decoration: none;
+}
+
+/* ukuran */
+img {
+    width: 300px;
+}
+
+/* background */
+h1 {
+    margin: 0;
+    padding: 30px 0;
+    background-image: url("img/18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+/* selector */
+
+    /* class */
+.p1 {
+    background-color: lightblue;
+}
+
+    /* id */
+#p2 {
+    background-color: lightyellow;
+}
+
+    /* style untuk 2 elemen sekaligus */
+ul, ol {
+    background-color: lightgray;
+}
+
+    /* style elemen spesifik */
+ul li a {
+    color: red;
+    /* transition */
+    transition: 0.5s;
+}
+
+ol li a {
+    color: green;
+}
+
+/* Pseudo Class */
+    /* keadaan tertentu (:link :hover :active :visited)*/
+ul li a:hover {
+    color: yellow;
+}
+
+/* first-child last-child nth-child(n) */
+ul li:first-child a {
+    background-color: lightgreen;
+}
+ul li:last-child a {
+    background-color: lightskyblue;
+}
+
+/* 
+n = angka 
+(2n) = urutan ke 2
+(2n) = urutan ke 2 + 1
+(odd)
+(even)
+*/
+ol li:nth-child(3n-2) a{
+    background-color: lightsalmon;
+}

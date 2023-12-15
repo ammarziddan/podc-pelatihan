@@ -1,0 +1,47 @@
+html {
+    scroll-padding-top: 4rem;
+}
+
+/* hero */
+.hero {
+    margin-top: 66px;
+}
+.hero-1 {
+    height: 400px;
+}
+
+.hero-1 .col-8 {
+    background-image: url('img/5.png');
+    background-size: cover;
+    background-position-y: -210px;
+}
+
+.hero-2 {
+    height: 200px;
+}
+
+.hero-2 .col {
+    background-image: url('img/hero2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-3 {
+    height: 200px;
+}
+
+.hero-3 .col {
+    background-image: url('img/hero3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* stickers */
+.stickers div img {
+    width: 150px;
+}
+
+/* footer */
+footer .d-flex {
+    width: 30%;
+}

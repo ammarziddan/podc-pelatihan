@@ -1,0 +1,56 @@
+.container {
+    max-width: 60%;
+    /* height: 100px; */
+    margin: 30px auto;
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+
+    /* arah flex */
+    /* flex-direction: column; */
+
+    /* justify content */
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+    justify-content: center;
+
+    /* align-items */
+    /* align-items: flex-start | flex-end | center | stretch | baseline; */
+    /* 
+    - stretch height items ilangin dulu
+    - baseline mengatur sesuai tulisan di dalamnya
+    */
+    align-items: center;
+    
+    /* flex wrap */
+    flex-wrap: wrap;
+
+    /* flex gap */
+    gap: 5px;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    /* margin: 5px; */
+    background-color: rgb(52, 52, 219);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satu {
+    height: 100px;
+}
+
+.dua {
+    height: 50px;
+}
+
+.tiga {
+    height: 80px;
+}
+
+.empat {
+    height: 120px;
+}
